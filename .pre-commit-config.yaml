@@ -3,5 +3,5 @@ repos:
   hooks:
   - id: update-advancement
     name: Update README with advancement
-    entry: pwd
+    entry: powershell -file ./pre-commit-hook.ps1
     language: system
