@@ -1,0 +1,5 @@
+- id: update-advancement
+  name: Update advancement bar
+  description: Updates the advancement bar in README.md
+  entry: advancement-hook.py
+  language: python
