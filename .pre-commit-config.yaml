@@ -1,5 +1,7 @@
-- id: update-advancement
-  name: Update advancement bar
-  description: Updates the advancement bar in README.md
-  entry: advancement-hook.py
-  language: python
+repos:
+- repo: local
+  hooks:
+  - id: update-advancement
+    name: Update README with advancement
+    entry: pwd
+    language: system

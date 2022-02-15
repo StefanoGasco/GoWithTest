@@ -1,4 +1,4 @@
 # GoWithTest
-following https://quii.gitbook.io/learn-go-with-tests/
+Following https://quii.gitbook.io/learn-go-with-tests/
 
-![Progress](https://progress-bar.dev/97?title=Title)
+![Progress](https://progress-bar.dev/99?title=Title)
