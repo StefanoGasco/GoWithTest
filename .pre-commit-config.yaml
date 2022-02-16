@@ -3,7 +3,7 @@ repos:
   hooks:
   - id: update-advancement
     name: Update README with advancement
-    entry: powershell -file ./pre-commit-hook.sh
+    entry: ./pre-commit-hook.sh
     language: system
 - repo: https://github.com/dnephin/pre-commit-golang
   rev: v0.4.0
