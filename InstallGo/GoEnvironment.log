@@ -1,0 +1,42 @@
+Script started on 2022-02-15 16:50:57-08:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="85" LINES="23"]
+]0;coder@ubuntu: ~/Documents/projects/GoWithTest/InstallGo[01;32mcoder@ubuntu[00m:[01;34m~/Documents/projects/GoWithTest/InstallGo[00m$ go mod init
+
+Command 'go' not found, but can be installed with:
+
+sudo apt install golang-go  # version 2:1.13~1ubuntu2, or
+sudo apt install gccgo-go   # version 2:1.13~1ubuntu2
+
+]0;coder@ubuntu: ~/Documents/projects/GoWithTest/InstallGo[01;32mcoder@ubuntu[00m:[01;34m~/Documents/projects/GoWithTest/InstallGo[00m$ go version
+
+Command 'go' not found, but can be installed with:
+
+sudo apt install golang-go  # version 2:1.13~1ubuntu2, or
+sudo apt install gccgo-go   # version 2:1.13~1ubuntu2
+
+]0;coder@ubuntu: ~/Documents/projects/GoWithTest/InstallGo[01;32mcoder@ubuntu[00m:[01;34m~/Documents/projects/GoWithTest/InstallGo[00m$ sourcv[Ke /env/[K[K[Ket[K[Ktc/environment
+]0;coder@ubuntu: ~/Documents/projects/GoWithTest/InstallGo[01;32mcoder@ubuntu[00m:[01;34m~/Documents/projects/GoWithTest/InstallGo[00m$ source /etc/environment[13Pgo version
+go version go1.17.7 linux/amd64
+]0;coder@ubuntu: ~/Documents/projects/GoWithTest/InstallGo[01;32mcoder@ubuntu[00m:[01;34m~/Documents/projects/GoWithTest/InstallGo[00m$ go mod init
+go: cannot determine module path for source directory /home/coder/Documents/projects/GoWithTest/InstallGo (outside GOPATH, module path must be specified)
+
+Example usage:
+	'go mod init example.com/m' to initialize a v0 or v1 module
+	'go mod init example.com/m/v2' to initialize a v2 module
+
+Run 'go help mod init' for more information.
+]0;coder@ubuntu: ~/Documents/projects/GoWithTest/InstallGo[01;32mcoder@ubuntu[00m:[01;34m~/Documents/projects/GoWithTest/InstallGo[00m$ go mod init LearnGo
+go: creating new go.mod: module LearnGo
+]0;coder@ubuntu: ~/Documents/projects/GoWithTest/InstallGo[01;32mcoder@ubuntu[00m:[01;34m~/Documents/projects/GoWithTest/InstallGo[00m$ ls
+GoEnvironment.log  go.mod  InstallGo.log
+]0;coder@ubuntu: ~/Documents/projects/GoWithTest/InstallGo[01;32mcoder@ubuntu[00m:[01;34m~/Documents/projects/GoWithTest/InstallGo[00m$ rm go.mod
+]0;coder@ubuntu: ~/Documents/projects/GoWithTest/InstallGo[01;32mcoder@ubuntu[00m:[01;34m~/Documents/projects/GoWithTest/InstallGo[00m$ cd ..
+]0;coder@ubuntu: ~/Documents/projects/GoWithTest[01;32mcoder@ubuntu[00m:[01;34m~/Documents/projects/GoWithTest[00m$ cd ..rm go.modls[Kgo mod init LearnGo
+go: creating new go.mod: module LearnGo
+go: to add module requirements and sums:
+	go mod tidy
+]0;coder@ubuntu: ~/Documents/projects/GoWithTest[01;32mcoder@ubuntu[00m:[01;34m~/Documents/projects/GoWithTest[00m$ [K]0;coder@ubuntu: ~/Documents/projects/GoWithTest[01;32mcoder@ubuntu[00m:[01;34m~/Documents/projects/GoWithTest[00m$ go fmt
+no Go files in /home/coder/Documents/projects/GoWithTest
+]0;coder@ubuntu: ~/Documents/projects/GoWithTest[01;32mcoder@ubuntu[00m:[01;34m~/Documents/projects/GoWithTest[00m$ [K]0;coder@ubuntu: ~/Documents/projects/GoWithTest[01;32mcoder@ubuntu[00m:[01;34m~/Documents/projects/GoWithTest[00m$ [K]0;coder@ubuntu: ~/Documents/projects/GoWithTest[01;32mcoder@ubuntu[00m:[01;34m~/Documents/projects/GoWithTest[00m$ exit
+exit
+
+Script done on 2022-02-15 17:00:06-08:00 [COMMAND_EXIT_CODE="1"]
